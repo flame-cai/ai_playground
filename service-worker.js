@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/flame-cai/ai_playground/precache-manifest.48d743e73bfb47cebc2609b4ecb7c7d1.js"
+  "/flame-cai/ai_playground/precache-manifest.c4b360c2c481bfddccffd348125c0f38.js"
 );
 
 self.addEventListener('message', (event) => {
