@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4af96222c1372dad904e8f1fe417b859",
+    "revision": "bf136c75411e598eefb3efbfc3c0ad3e",
     "url": "/flame-cai/ai_playground/index.html"
   },
   {
-    "revision": "735e5af14f6c0e545885",
+    "revision": "1b0446314e2da1fc96ba",
     "url": "/flame-cai/ai_playground/static/css/main.86098ffc.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/flame-cai/ai_playground/static/js/3.50f9ff74.chunk.js"
   },
   {
-    "revision": "735e5af14f6c0e545885",
-    "url": "/flame-cai/ai_playground/static/js/main.ed2d1ca6.chunk.js"
+    "revision": "1b0446314e2da1fc96ba",
+    "url": "/flame-cai/ai_playground/static/js/main.0a2cc1f1.chunk.js"
   },
   {
     "revision": "62ed39ffa3a107ad1f10",
