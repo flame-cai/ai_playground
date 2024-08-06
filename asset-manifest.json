@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/flame-cai/ai_playground/static/css/main.86098ffc.chunk.css",
+    "main.js": "/flame-cai/ai_playground/static/js/main.ed2d1ca6.chunk.js",
+    "main.js.map": "/flame-cai/ai_playground/static/js/main.ed2d1ca6.chunk.js.map",
+    "runtime-main.js": "/flame-cai/ai_playground/static/js/runtime-main.d63384d4.js",
+    "runtime-main.js.map": "/flame-cai/ai_playground/static/js/runtime-main.d63384d4.js.map",
+    "static/js/2.b5dbc987.chunk.js": "/flame-cai/ai_playground/static/js/2.b5dbc987.chunk.js",
+    "static/js/2.b5dbc987.chunk.js.map": "/flame-cai/ai_playground/static/js/2.b5dbc987.chunk.js.map",
+    "static/js/3.50f9ff74.chunk.js": "/flame-cai/ai_playground/static/js/3.50f9ff74.chunk.js",
+    "static/js/3.50f9ff74.chunk.js.map": "/flame-cai/ai_playground/static/js/3.50f9ff74.chunk.js.map",
+    "index.html": "/flame-cai/ai_playground/index.html",
+    "precache-manifest.c4b360c2c481bfddccffd348125c0f38.js": "/flame-cai/ai_playground/precache-manifest.c4b360c2c481bfddccffd348125c0f38.js",
+    "service-worker.js": "/flame-cai/ai_playground/service-worker.js",
+    "static/css/main.86098ffc.chunk.css.map": "/flame-cai/ai_playground/static/css/main.86098ffc.chunk.css.map",
+    "static/js/2.b5dbc987.chunk.js.LICENSE.txt": "/flame-cai/ai_playground/static/js/2.b5dbc987.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d63384d4.js",
+    "static/js/2.b5dbc987.chunk.js",
+    "static/css/main.86098ffc.chunk.css",
+    "static/js/main.ed2d1ca6.chunk.js"
+  ]
+}
