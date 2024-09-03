@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ai_playground/static/css/main.dfe899b2.css",
-    "main.js": "/ai_playground/static/js/main.542b54e2.js",
+    "main.js": "/ai_playground/static/js/main.ed9ac10a.js",
     "static/js/453.d855a71b.chunk.js": "/ai_playground/static/js/453.d855a71b.chunk.js",
     "static/media/KaTeX_AMS-Regular.ttf": "/ai_playground/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/ai_playground/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
@@ -65,11 +65,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/ai_playground/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/ai_playground/index.html",
     "main.dfe899b2.css.map": "/ai_playground/static/css/main.dfe899b2.css.map",
-    "main.542b54e2.js.map": "/ai_playground/static/js/main.542b54e2.js.map",
+    "main.ed9ac10a.js.map": "/ai_playground/static/js/main.ed9ac10a.js.map",
     "453.d855a71b.chunk.js.map": "/ai_playground/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dfe899b2.css",
-    "static/js/main.542b54e2.js"
+    "static/js/main.ed9ac10a.js"
   ]
 }
