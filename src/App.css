@@ -1,0 +1,317 @@
+/* src/App.css */
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+.nav-link:hover {
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #103654;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  height: 100vh;
+}
+
+.chat-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  overflow-y: auto;
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.message-row .message {
+  position: relative;
+  margin-bottom: 3px;
+  padding: 10px 10px;
+  border-radius: 15px;
+  border-color: black;
+}
+
+.user {
+  /* text-align: right; */
+  align-self: flex-end;
+  background-color: #e9ecef;
+  margin-bottom: 0px;
+  margin-left: 50px;
+}
+
+.user-row {
+  align-self: flex-end;
+}
+
+.assistant {
+  /* text-align: left; */
+  align-self: flex-start;
+  background-color: #e9ecef;
+  margin-bottom: 0px;
+  margin-right: 50px;
+}
+
+.assistant-row {
+   align-self: flex-start;
+}
+
+.correction {
+  color: #ff6b6b;
+}
+
+.translation {
+  color: #4ecdc4;
+}
+
+.hoverable-word {
+  cursor: pointer;
+  color: #103654;
+  margin-right: 4px;
+}
+
+.hoverable-word:hover {
+  background-color: #f0f0f0;
+}
+
+.input-container {
+  display: flex;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 50px; 
+  border: 2px solid #f0f0f0;
+}
+
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.chat-message-left .avatar-left {
+  order: -1;
+}
+
+.chat-message-right .avatar-right {
+  order: 1;
+}
+
+.p {
+  margin-bottom: 0px;
+}
+
+.score{
+  text-align: right;
+}
+
+.hoverable-word .tooltiptext {
+  visibility: hidden;
+  background-color: #f8f9fa; /* Light background color */
+  color: #212529; /* Dark text color */
+  /* text-align: center; */
+  border-radius: 0.25rem;
+  padding: 0.2em 0.6em;
+  position: absolute;
+  z-index: 1;
+  transform: translateX(-100%) translateY(-105%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  white-space: nowrap;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  font-size: 0.875em;
+}
+
+.hoverable-word:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* For Webkit browsers */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Background of the scrollbar track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #cdcfd2; /* Color of the scrollbar handle */
+  border-radius: 10px;
+  border: 3px solid #f0f0f0; /* Adds a little padding around handle */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the scrollbar handle on hover */
+}
+
+.profile-picture {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.message-row {
+  display: flex;
+  align-items: flex-start; /* Align items at the start of the flex container */
+  margin: 0 0;
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full width */
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0 20px; /* Horizontal padding */
+  margin: 0; /* Remove any margin that might affect centering */
+}
+
+.logout-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+/* src/components/LoginPage.css */
+.login-container {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.logo-image {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.logo-image {
+  max-width: 250px; /* Adjust size as needed */
+  max-height: 250px;
+  margin: 0 10px;
+}
+
+.vertical-line {
+  width: 2px;
+  background-color: #000; /* Adjust color as needed */
+  height: 250px; /* Match the height of your images */
+  margin: 0 10px;
+}
+
+.google-signin-button button{
+  padding: 10px 10px;
+  font-size: 25px;
+  background-color: #4285F4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.google-signin-button button:hover {
+  background-color: #357ae8;
+}
+
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50%;
+  margin-top: 3px;
+  background-color: #e9ecef;
+  color: #103654;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 0;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.icon-btn:hover {
+  background-color: #e9ecef;
+}
+
+.icon-btn:focus {
+  outline: none;
+}
+
+.text-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+textarea {
+  display: table-column;
+  width: 400px;
+}
+
+.sys-msg {
+  display: flex;
+}
